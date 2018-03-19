@@ -21,8 +21,8 @@ public class MovieRepositoryTest {
 
     @Test
     public void test(){
-            movieRepository.save(new Movie("Titanic", "Jams", "1997"));
-            movieRepository.save(new Movie("Transformer" , "Mack" , "2008"));
+//            movieRepository.save(new Movie("Titanic", "Jams", "1997"));
+//            movieRepository.save(new Movie("Transformer" , "Mack" , "2008"));
         for (Movie x: movieRepository.findAll()
              ) {
             System.out.printf("MOIVE>    %s %s %s\n" , x.getName() , x.getDirector() , x.getYear());

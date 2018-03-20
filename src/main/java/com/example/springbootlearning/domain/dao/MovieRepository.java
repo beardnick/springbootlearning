@@ -1,6 +1,6 @@
-package com.example.springbootlearning.util;
+package com.example.springbootlearning.domain.dao;
 
-import com.example.springbootlearning.domain.Movie;
+import com.example.springbootlearning.domain.entity.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

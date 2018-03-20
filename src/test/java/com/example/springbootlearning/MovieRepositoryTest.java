@@ -1,16 +1,12 @@
 package com.example.springbootlearning;
 
-import com.example.springbootlearning.domain.Movie;
-import com.example.springbootlearning.util.MovieRepository;
+import com.example.springbootlearning.domain.entity.Movie;
+import com.example.springbootlearning.domain.dao.MovieRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import javafx.application.Application;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

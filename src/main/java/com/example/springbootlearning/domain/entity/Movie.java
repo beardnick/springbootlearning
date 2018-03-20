@@ -1,4 +1,4 @@
-package com.example.springbootlearning.domain;
+package com.example.springbootlearning.domain.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
